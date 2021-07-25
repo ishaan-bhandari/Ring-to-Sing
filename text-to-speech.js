@@ -15,7 +15,7 @@ onload = function() {
                 flag = true;
                 utterance = new SpeechSynthesisUtterance(document.querySelector('article').textContent);
                 utterance.voice = getVoices()[26];
-                utterance.rate = 0.2;
+                utterance.rate = 0.15;
                 utterance.onend = function() {
                     flag = false;
                     playEle.className = pauseEle.className = '';
