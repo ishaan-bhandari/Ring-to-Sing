@@ -5,7 +5,7 @@ body {
   overflow: hidden;
 }
 
-h1 {
+a, h1 {
   color: white; 
   font-family: "Sofia", sans-serif;
   font-size: 50px; 
